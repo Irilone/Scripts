@@ -1,0 +1,84 @@
+{
+    "github.copilot.enable": {
+        "*": true
+    },
+    "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.editor.enableCodeActions": true,
+    "github.copilot.renameSuggestions.triggerAutomatically": true,
+    "github.copilot.chat.codeGeneration.instructions": [
+        {
+            "file": ".copilot-codeGeneration-instructions.md"
+        }
+    ],
+    "github.copilot.chat.completionContext.typescript.mode": "on",
+    "github.copilot.chat.editor.temporalContext.enabled": true,
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+            "text": "Use conventional commit message format."
+        }
+    ],
+    "github.copilot.chat.edits.temporalContext.enabled": true,
+    "github.copilot.chat.generateTests.codeLens": true,
+    "github.copilot.chat.languageContext.typescript.enabled": true,
+    "github.copilot.chat.search.semanticTextResults": true,
+    "github.copilot.chat.testGeneration.instructions": [
+        {
+            "text": "Always try uniting related tests in a suite."
+        },
+        {
+            "file": ".copilot-test-instructions.md"
+        }
+    ],
+    "githubIssues.alwaysPromptForNewIssueRepo": true,
+    "github.copilot.chat.followUps": "always",
+    "github.copilot.chat.scopeSelection": true,
+    "github.copilot.chat.edits.codesearch.enabled": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "github.copilot.chat.reviewSelection.instructions": [
+        {
+            "file": ".copilot-review-instructions.md"
+        }
+    ],
+    "chat.commandCenter.enabled": true,
+    "workbench.commandPalette.experimental.askChatLocation": "chatView",
+    "github.copilot.chat.runCommand.enabled": true,
+    "github.copilot.chat.useProjectTemplates": true,
+    "github.copilot.chat.terminalChatLocation": "chatView",
+    "chat.detectParticipant.enabled": true,
+    "editor.inlineSuggest.edits.codeShifting": true,
+    "editor.inlineSuggest.edits.renderSideBySide": "auto",
+    "git.openRepositoryInParentFolders": "never",
+    "gitkraken.cli.enable": true,
+    "gitkraken.cli.path": "/opt/homebrew/bin/gk",
+    "gitkraken.cli.autoFetch": true,
+    "gitkraken.cli.autoPull": false,
+    "gitkraken.cli.defaultWorkspace": "~/projects",
+    "gitkraken.cli.showNotifications": true,
+    "gitkraken.cli.cloneProtocol": "ssh",
+    "gitkraken.cli.concurrency": 4,
+    "gitkraken.cli.defaultOpen": "gitkraken",
+    "gitkraken.cli.maxDisplayItems": 50,
+    "gitkraken.cli.textMode": false,
+    "gitkraken.cli.theme": "gk_theme",
+    "redhat.telemetry.enabled": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.kubectl-path-mac": "/Users/air/.vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.minikube-path-mac": "/Users/air/.vs-kubernetes/tools/minikube/darwin-arm64/minikube",
+        "vscode-kubernetes.helm-path-mac": "/Users/air/.vs-kubernetes/tools/helm/darwin-arm64/helm"
+    },
+    "git.autofetch": true,
+    "editor.find.globalFindClipboard": true,
+    "terminal.integrated.macOptionClickForcesSelection": true,
+    "inlineChat.lineEmptyHint": true,
+    "typescript.implementationsCodeLens.showOnInterfaceMethods": true,
+    "jupyter.jupyterCommandLineArguments": [],
+    "code-runner.languageIdToFileExtensionMap": {
+        "bat": ".bat",
+        "powershell": ".ps1",
+        "typescript": ".ts"
+    },
+    "security.workspace.trust.trustedDomains": [
+        "https://*.gitkraken.com",
+        "https://*.gitlens.com"
+    ]
+}
